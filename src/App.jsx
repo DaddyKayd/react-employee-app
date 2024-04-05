@@ -1,38 +1,24 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Title from './components/title.jsx'
 import data from './data/data.js';
+import MediaCard from './components/employeecard.jsx'
+import Container from '@mui/material/Container';
+
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
   console.log(data[1].firstName);
   return (
-    
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <Title name={data[1].firstName} name={data[1].lastName}  />
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 10)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Container fixed>
+     <MediaCard/> 
+     <MediaCard/> 
+     <MediaCard/> 
+     <MediaCard/> 
+     <MediaCard/> 
+     <MediaCard/> 
+     </Container>
+  );
 }
 
 export default App
