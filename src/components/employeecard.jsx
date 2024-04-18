@@ -5,6 +5,11 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+import ThreeDRotation from '@mui/icons-material/ThreeDRotation';
+
+
+
 
 export default function MediaCard() {
   return (
@@ -14,6 +19,9 @@ export default function MediaCard() {
         image="blue-lizard.jpg"
         title="green iguana"
       />
+      <span class="material-icons-outlined">
+        bug_report
+      </span>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Blue Lizard Man
