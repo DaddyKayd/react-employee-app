@@ -1,14 +1,15 @@
 const data = [{
     "id": "E1002",
-    "firstName": "John",
-    "lastName": "Smith",
-    "email": "john.smith@example.com",
+    "firstName": "Ben",
+    "lastName": "Dover",
+    "email": "ben.dover@example.com",
     "department": "UX/UI Design",
     "position": "UI Designer",
     "employmentType": "Part-Time",
     "skills": ["Sketch", "Figma", "Adobe XD"],
     "hoursLoggedThisWeek": 20,
-    "onLeave": false
+    "onLeave": false,
+    "image": "profile1.png"
   },
   
   {

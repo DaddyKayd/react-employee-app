@@ -5,33 +5,37 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
-import ThreeDRotation from '@mui/icons-material/ThreeDRotation';
+import Chip from '@mui/material/Chip';
+import Stack from '@mui/material/Stack';
 
-
-
-
-export default function MediaCard() {
+export default function MediaCard({employee}) {
+  console.log(employee);
   return (
-    <Card sx={{ maxWidth: 345, margin:10 }}>
+    <Card sx={{ maxWidth: 1045, margin:10, padding: 3 }}>
       <CardMedia
-        sx={{ height: 140 }}
-        image="blue-lizard.jpg"
+        sx={{ height: 200, backgroundSize: 'contain', margin: 3 }}
+        image= {employee[0].image}
         title="green iguana"
       />
-      <span class="material-icons-outlined">
-        bug_report
-      </span>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Blue Lizard Man
+         {employee[0].firstName} {employee[0].lastName} 
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are cool as fuck my guy
+          {employee[0].department}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+          {employee[0].position}
         </Typography>
       </CardContent>
+
+      <Stack direction="row" spacing={1}>
+      <Chip label="Chip Filled" />
+      <Chip label="Chip Outlined" variant="outlined" />
+    </Stack>
+
       <CardActions>
-        <Button size="small">Fuck yeah</Button>
+        <Button size="large">Fuck yeah</Button>
         <Button size="small">Fuck no</Button>
       </CardActions>
     </Card>
