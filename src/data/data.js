@@ -9,59 +9,63 @@ const data = [{
     "skills": ["Sketch", "Figma", "Adobe XD"],
     "hoursLoggedThisWeek": 20,
     "onLeave": false,
-    "image": "profile1.png"
+    "image": "profile3.png"
   },
   
   {
     "id": "E1003",
     "firstName": "Lisa",
-    "lastName": "White",
-    "email": "lisa.white@example.com",
+    "lastName": "Newcar",
+    "email": "lisa.newcar@example.com",
     "department": "Marketing",
     "position": "Digital Marketing Specialist",
     "employmentType": "Remote",
     "skills": ["SEO", "Content Marketing", "Google Analytics"],
     "hoursLoggedThisWeek": 35,
-    "onLeave": false
+    "onLeave": false,
+    "image": "profile2.png"
   },
   
   {
     "id": "E1004",
-    "firstName": "Mark",
-    "lastName": "Brown",
-    "email": "mark.brown@example.com",
+    "firstName": "Jenna",
+    "lastName": "Tailia",
+    "email": "jenna.tailia@example.com",
     "department": "Software Development",
     "position": "Backend Developer",
     "employmentType": "Full-Time",
     "skills": ["Node.js", "MongoDB", "Express"],
     "hoursLoggedThisWeek": 40,
-    "onLeave": true
+    "onLeave": true,
+    "image": "profile1.png"
   },
   
   {
     "id": "E1005",
-    "firstName": "Emily",
-    "lastName": "Green",
-    "email": "emily.green@example.com",
+    "firstName": "Mike",
+    "lastName": "Oxlong",
+    "email": "mike.oxlong@example.com",
     "department": "Human Resources",
     "position": "HR Manager",
     "employmentType": "Full-Time",
     "skills": ["Recruitment", "Employee Relations", "Performance Management"],
     "hoursLoggedThisWeek": 40,
-    "onLeave": false
+    "onLeave": false,
+    "image": "profile4.png"
   },
   
   {
     "id": "E1006",
-    "firstName": "Alex",
-    "lastName": "Johnson",
-    "email": "alex.johnson@example.com",
+    "firstName": "Eric",
+    "lastName": "Shawn",
+    "email": "eric.shawn@example.com",
     "department": "IT Support",
     "position": "IT Support Specialist",
     "employmentType": "Full-Time",
     "skills": ["Network Security", "Hardware Troubleshooting", "Customer Service"],
     "hoursLoggedThisWeek": 40,
-    "onLeave": false
+    "onLeave": false,
+    "image": "profile5.png"
   }]
 
 
