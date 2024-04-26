@@ -8,7 +8,6 @@ import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 
-
 export default function MediaCard({ employee }) {
   console.log(employee);
   return (
@@ -32,14 +31,19 @@ export default function MediaCard({ employee }) {
             </Typography>
           </CardContent>
 
-          <Stack direction="row" spacing={1}>
-            <Chip label="Chip Filled" />
-            <Chip label="Chip Outlined" variant="outlined" />
+          <Stack>
+          {item.skills.map((skill, skillIndex) => (
+            <Chip 
+             varient= "outlined"
+             sx= {{marginTop: "10px" }}
+             key={skillIndex}
+             label={skill}
+            />
+            ))} 
           </Stack>
-
           <CardActions>
-            <Button size="small">Share</Button>
-            <Button size="small">Learn More</Button>
+            <Button size="small">Fire</Button>
+            <Button size="small">Promote</Button>
           </CardActions>
         </Card>
       ))}

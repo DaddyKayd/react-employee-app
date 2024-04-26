@@ -57,14 +57,14 @@ const data = [{
   {
     "id": "E1006",
     "firstName": "Eric",
-    "lastName": "Shawn",
-    "email": "eric.shawn@example.com",
+    "lastName": "Shaun",
+    "email": "eric.shaun@example.com",
     "department": "IT Support",
     "position": "IT Support Specialist",
     "employmentType": "Full-Time",
     "skills": ["Network Security", "Hardware Troubleshooting", "Customer Service"],
     "hoursLoggedThisWeek": 40,
-    "onLeave": false,
+    "onLeave": true,
     "image": "profile5.png"
   }]
 
